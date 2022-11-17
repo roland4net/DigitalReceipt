@@ -57,6 +57,10 @@ Transaction:
         It is an integer value such as register number.
       type: integer
       format: int32
+    fiscalData:
+      description: |
+        Fiscal specific data.
+      $ref: "fiscal.yaml#/FiscalData"
     businessDayID:
       description: |
         Unique identifier for business date.
